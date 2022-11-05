@@ -269,6 +269,29 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service \
     vendor.semc.hardware.display@2.2.vendor
 
+ifeq ($(TARGET_USES_DOLBY),true)
+# Miui Dolby Engine Topic
+# Dolby Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby/private
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby/vendor
+
+# Dolby Props
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio_fx.current=dolby \
+    ro.vendor.dolby.dax.version=DAX3_3.8.5.20_r1 \
+    ro.vendor.audio.dolby.dax.version=DAX3_3.8 \
+    ro.vendor.audio.dolby.dax.support=true \
+    ro.vendor.audio.dolby.surround.enable=true \
+
+# Dolby Effects Props
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio.delta.refresh=true
+
+# Dolby MediaCodecs Loading Support (Overwrites Vendor files)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
+endif
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
