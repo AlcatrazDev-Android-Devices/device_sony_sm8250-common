@@ -234,6 +234,7 @@ PRODUCT_PACKAGES += \
     ueventd.sony.rc \
     fstab.qcom \
     fstab.qcom.ramdisk \
+    fstab.zram \
     texfat.rc \
     init.nfc.rc \
     init.sony-device-common.rc \
