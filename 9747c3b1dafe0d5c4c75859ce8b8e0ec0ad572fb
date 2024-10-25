@@ -16,6 +16,24 @@
       "message": "you might want to provide modules for them in compat repo, see libui-v30 for example.",
       "revId": "9747c3b1dafe0d5c4c75859ce8b8e0ec0ad572fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "495289b0_3e7407e6",
+        "filename": "extract-files.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-10-25T01:40:04Z",
+      "side": 1,
+      "message": "Add compat lib*-v32: https://review.lineageos.org/c/LineageOS/android_hardware_lineage_compat/+/406774",
+      "parentUuid": "1b858d10_0ac54491",
+      "revId": "9747c3b1dafe0d5c4c75859ce8b8e0ec0ad572fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
