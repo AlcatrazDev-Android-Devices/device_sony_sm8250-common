@@ -383,6 +383,12 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor
 
+# Dolby MediaCodecs Dependenices
+PRODUCT_PACKAGES += \
+    libcodec2_soft_common.vendor \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.sony_edo
