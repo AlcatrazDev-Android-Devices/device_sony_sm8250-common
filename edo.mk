@@ -20,6 +20,9 @@ $(call inherit-product, vendor/sony/sm8250-common/sm8250-common-vendor.mk)
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Inherent Gapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 # VNDK
 BOARD_SHIPPING_API_LEVEL := 29
 PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
@@ -529,3 +532,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Custom: OpenEuicc
+PRODUCT_PACKAGES += \
+    OpenEUICC
