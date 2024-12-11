@@ -21,7 +21,7 @@ $(call inherit-product, vendor/sony/sm8250-common/sm8250-common-vendor.mk)
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Inherent Gapps
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+# $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 # VNDK
 BOARD_SHIPPING_API_LEVEL := 29
