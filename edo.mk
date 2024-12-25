@@ -247,6 +247,7 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     ueventd.sony.rc \
     fstab.qcom \
+    fstab.qcom.ramdisk \
     texfat.rc \
     init.nfc.rc \
     init.sony-device-common.rc \
@@ -293,10 +294,6 @@ PRODUCT_PACKAGES += \
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
-
-# Fstab
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:vendor/etc/fstab.qcom
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -442,10 +439,6 @@ PRODUCT_PACKAGES += \
     libsqlite.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
-
-# Ramdisk
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
 # RIL
 PRODUCT_PACKAGES += \
