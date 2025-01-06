@@ -324,6 +324,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# Gnss
+PRODUCT_PACKAGES += \
+    BaiduNetworkLocation \
+    IZatOverlayCN
+
 # Gnss configs
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gnss/etc/,$(TARGET_COPY_OUT_VENDOR)/etc)
