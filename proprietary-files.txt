@@ -792,7 +792,6 @@ vendor/etc/flp.conf
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gps.conf
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
-vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
 vendor/etc/seccomp_policy/gnss@2.0-base.policy
