@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57bf8d61_72ca489e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-13T18:31:28Z",
+      "side": 1,
+      "message": "may I reccomend you use a vendor/extra/product.mk instead?\n\nIf you\u0027re just trying to include these in personal builds.\n\nMake a vendor/extra repo, product.mk is included from there automatically.",
+      "revId": "a4b64afabaeec253729e4651efcfe209a50bd39d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
