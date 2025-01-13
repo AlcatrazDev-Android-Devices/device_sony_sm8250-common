@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c061808_3e6660c4",
+        "filename": "edo.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 360,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2025-01-13T11:39:37Z",
+      "side": 0,
+      "message": "Also remove this",
+      "revId": "9294324e150c6fa8751485c401470dfff9ca727e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
