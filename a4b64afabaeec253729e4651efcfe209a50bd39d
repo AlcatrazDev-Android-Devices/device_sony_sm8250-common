@@ -16,6 +16,24 @@
       "message": "may I reccomend you use a vendor/extra/product.mk instead?\n\nIf you\u0027re just trying to include these in personal builds.\n\nMake a vendor/extra repo, product.mk is included from there automatically.",
       "revId": "a4b64afabaeec253729e4651efcfe209a50bd39d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d7fd9f8_892cf050",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2025-01-13T18:41:40Z",
+      "side": 1,
+      "message": "\u003e may I reccomend you use a vendor/extra/product.mk instead?\n\u003e \n\u003e If you\u0027re just trying to include these in personal builds.\n\u003e \n\u003e Make a vendor/extra repo, product.mk is included from there automatically.\n\noh sorry, uploaded my changes for private builds. Thanks for the advise!",
+      "parentUuid": "57bf8d61_72ca489e",
+      "revId": "a4b64afabaeec253729e4651efcfe209a50bd39d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
