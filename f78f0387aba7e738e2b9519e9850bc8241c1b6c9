@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9f98869_3592d18a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2025-01-14T06:58:57Z",
+      "side": 1,
+      "message": "Please also drop the reference to those xmls in",
+      "revId": "f78f0387aba7e738e2b9519e9850bc8241c1b6c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
