@@ -162,6 +162,45 @@ vendor/lib64/libsony3daudioeffect.so
 vendor/lib64/libvpt3d.so
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so
 
+# Audio - DSEE
+vendor/etc/DrangeparaAAC128.bin
+vendor/etc/DrangeparaAAC256.bin
+vendor/etc/DrangeparaAAC64.bin
+vendor/etc/DrangeparaMP3_128.bin
+vendor/etc/DrangeparaMP3_160.bin
+vendor/etc/DrangeparaMP3_192.bin
+vendor/etc/dsx_param_file.bin
+
+# Audio - Media vibration
+vendor/etc/media_vib/media_vib_params_rev3
+
+# Audio - Wind noise reduction
+vendor/etc/windnoise_reduction.data
+vendor/etc/windnoise_reduction_stat.data
+
+# Audio - Zoom noise reduction
+vendor/etc/zoom_noise_reduction/znr_44k_ComboCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_FrontCHICam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_NoCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_SWideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_TeleCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_WideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_44k_defaultCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_ComboCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_FrontCHICam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_NoCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_SWideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_TeleCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_WideCam.tbl
+vendor/etc/zoom_noise_reduction/znr_48k_defaultCam.tbl
+vendor/etc/zoom_noise_reduction/znr_parameter.xml
+
+# Audio - 3D Audio
+vendor/etc/3da/com.sony.360ra.hrtf13.standard.hki
+vendor/etc/3da/sforce_coef
+vendor/etc/3da/universal32_v2_e.hki2
+vendor/etc/3da/unknown.ba
+
 # Authsecret
 vendor/bin/hw/android.hardware.authsecret@1.0-service-qti
 vendor/etc/init/android.hardware.authsecret@1.0-service-qti.rc
@@ -209,6 +248,7 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
 vendor/bin/vendor.qti.qspmhal@1.0-service
 vendor/etc/camera/camxoverridesettings.txt
+vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
@@ -1710,6 +1750,7 @@ vendor/lib64/libmmrtpencoder_proprietary.so
 
 # VPP
 vendor/bin/vppservice
+vendor/etc/be_movie_spc
 vendor/etc/init/vppservice.rc
 vendor/lib/libpfter.so
 vendor/lib/libswiqisettinghelper.so
