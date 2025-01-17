@@ -66,9 +66,23 @@ vendor/lib/rfsa/adsp/libstdc++.so
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 
+# Audio
+vendor/lib/hw/audio.primary.kona.so
+
 # Audio Extensions
+vendor/lib/liba2dpoffload.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libbatterylistener.so
+vendor/lib/libcirrusspkrprot.so
+vendor/lib/libcomprcapture.so
+vendor/lib/libexthwplugin.so
+vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
+vendor/lib/libhfp.so
+vendor/lib/libsndmonitor.so
 vendor/lib/libsonydseehxwrapper.so
+vendor/lib/libspkrprot.so
+vendor/lib/libssrec.so
 vendor/lib64/libhdmipassthru.so
 vendor/lib64/libsonydseehxwrapper.so
 
@@ -98,6 +112,10 @@ vendor/lib64/libqtigef.so
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libbundlewrapper1.so
+vendor/lib/soundfx/libbundlewrapper2.so
+vendor/lib/soundfx/libbundlewrapper3.so
+vendor/lib/soundfx/libbundlewrapper4.so
 vendor/lib/soundfx/libdnnrwrapper.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
