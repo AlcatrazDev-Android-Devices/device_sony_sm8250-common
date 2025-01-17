@@ -290,6 +290,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Dolby MediaCodecs Loading Support (Overwrites Vendor files)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
+
+# SonyDolby
+PRODUCT_PACKAGES += \
+    SonyDolby
 endif
 
 # DRM
