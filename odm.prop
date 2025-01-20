@@ -8,3 +8,9 @@ persist.vendor.display.colorgamut.mode=1
 persist.vendor.display.sspp_color_mode=1
 persist.vendor.display.opec_mode=0
 vendor.display.hmd_mode=0
+
+# Dolby check
+ro.odm.build.SomcCntrl.manufacture=Sony
+ro.odm.build.SomcCntrl.Brand=Sony
+ro.odm.build.SomcCntrl.Model=Pdx206
+ro.odm.build.SomcCntrl.device=pdx206
