@@ -477,7 +477,6 @@ vendor/lib64/local_libcamera_metadata.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
-vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
 vendor/lib64/vendor.somc.camera.device@3.2-impl.so
 vendor/lib64/vendor.somc.camera.device@3.3-impl.so
 vendor/lib64/vendor.somc.camera.device@3.4-impl.so
@@ -775,6 +774,12 @@ vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
+
+# ExtLight
+vendor/bin/hw/vendor.semc.hardware.extlight-service.somc
+vendor/etc/init/vendor.semc.hardware.extlight-somc.rc
+vendor/etc/vintf/manifest/vendor.semc.hardware.extlight-somc.xml
+vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
 
 # Fingerprint firmware
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs
