@@ -554,5 +554,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XperiaParts
 
+# XperiaUI
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-xperiaui.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-xperiaui.xml
+
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
