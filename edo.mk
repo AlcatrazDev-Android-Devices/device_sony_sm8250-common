@@ -552,7 +552,8 @@ PRODUCT_PACKAGES += \
 
 # XperiaParts
 PRODUCT_PACKAGES += \
-    XperiaParts
+    XperiaParts \
+    libnative_input_shim
 
 # XperiaUI
 PRODUCT_COPY_FILES += \
