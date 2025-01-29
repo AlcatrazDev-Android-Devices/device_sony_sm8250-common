@@ -1805,6 +1805,18 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf
 odm/bin/sony_ext_uim_ctrl
 odm/etc/init/sony_ext_uim_ctrl.rc
 
+# XperiaUI - Camera
+product/app/ArtFilterCamera-xxhdpi-release/ArtFilterCamera-xxhdpi-release.apk
+product/app/CameraAddonPermission/CameraAddonPermission.apk
+product/app/CameraCommonPermission/CameraCommonPermission.apk
+product/app/CameraPanorama-release/CameraPanorama-release.apk
+product/app/com.sonymobile.addoncamera.portraitselfie/com.sonymobile.addoncamera.portraitselfie.apk
+product/priv-app/CameraCommon/CameraCommon.apk
+product/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk
+product/priv-app/SemcPhotoEditor/SemcPhotoEditor.apk
+product/priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
+product/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk
+
 # XperiaUI - DLNA Server
 product/priv-app/dlna-somc-xxhdpi-release/dlna-somc-xxhdpi-release.apk
 product/etc/permissions/com.sonyericsson.dlna.xml
