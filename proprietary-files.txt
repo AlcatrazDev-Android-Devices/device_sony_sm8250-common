@@ -1805,6 +1805,11 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf
 odm/bin/sony_ext_uim_ctrl
 odm/etc/init/sony_ext_uim_ctrl.rc
 
+# XperiaUI - DLNA Server
+product/priv-app/dlna-somc-xxhdpi-release/dlna-somc-xxhdpi-release.apk
+product/etc/permissions/com.sonyericsson.dlna.xml
+product/framework/com.sonyericsson.dlna_impl.jar
+
 # XperiaUI - Ordinary Apps
 system/priv-app/textinput-chn-xxhdpi-release/textinput-chn-xxhdpi-release.apk
 product/app/SomcPhotoPro-xxhdpi-release/SomcPhotoPro-xxhdpi-release.apk

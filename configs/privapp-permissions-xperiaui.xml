@@ -24,5 +24,10 @@
         <permission name="android.permission.WRITE_SECURE_SETTINGS" />
         <permission name="android.permission.CLEAR_APP_CACHE" />
     </privapp-permissions>
+    
+    <privapp-permissions package="com.sonymobile.dlna">
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG" />
+        <permission name="android.permission.CHANGE_CONFIGURATION" />
+    </privapp-permissions>
 
 </permissions>
