@@ -24,7 +24,6 @@ vendor/etc/acdbdata/Sony_edo_Hdmi_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/workspaceFile_Sony_edo.qwsp
 vendor/lib/libacdbloader.so
-vendor/lib64/libacdbloader.so
 
 # ADSP
 vendor/bin/adsprpcd
@@ -83,12 +82,8 @@ vendor/lib/libsndmonitor.so
 vendor/lib/libsonydseehxwrapper.so
 vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
-vendor/lib64/libhdmipassthru.so
-vendor/lib64/libsonydseehxwrapper.so
 
 # Audio Firmware
-system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
-system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
@@ -99,14 +94,6 @@ vendor/lib/libaudioalsa.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libdiag.so
 vendor/lib/libqtigef.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libqtigef.so
 
 # Audio FX Modules
 system_ext/etc/permissions/audiosphere.xml
@@ -139,22 +126,6 @@ vendor/lib/libsony3daudioeffect.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libvpt3d.so
 vendor/lib/libznr.so;DISABLE_CHECKELF
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
-vendor/lib64/soundfx/libshoebox.so
-vendor/lib64/libHpEqApi.so
-vendor/lib64/libOARenderer.so
-vendor/lib64/libSForceVSE.so
-vendor/lib64/libaudiokeymgr.so
-vendor/lib64/libiVptApi.so
-vendor/lib64/libiVptHkiDec.so
-vendor/lib64/libiVptLibC.so
-vendor/lib64/libops.so
-vendor/lib64/librebuffering.so
-vendor/lib64/libsony3daudioeffect.so
-vendor/lib64/libvpt3d.so
 
 # Audio - DSEE
 vendor/etc/DrangeparaAAC128.bin
@@ -202,9 +173,6 @@ vendor/etc/init/android.hardware.authsecret@1.0-service-qti.rc
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/libbt-hidlclient.so
-vendor/lib/libbtnv.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
@@ -212,24 +180,12 @@ vendor/lib64/libbtnv.so
 # Bluetooth (A2DP)
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
-vendor/lib/libsoc_helper.so
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
-vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib64/btaudio_offload_if.so
-vendor/lib64/libbluetooth_audio_session_qti.so
-vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
@@ -655,34 +611,6 @@ vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Display calibration data
-vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_nt36672e_90Hz_fhd_plus_video_mode_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_120HZ_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_60HZ_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_90HZ_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_120HZ_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_60HZ_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_90HZ_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_cmd_mode_dsi_visionox_panel.xml
-vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml
-vendor/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_td4330_v2_cmd_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_td4330_v2_video_mode_dsi_truly_panel.xml
-
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/ppd
@@ -1072,15 +1000,6 @@ vendor/lib/libgcs.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
-vendor/lib64/libcapiv2svacnn.so
-vendor/lib64/libcapiv2svarnn.so
-vendor/lib64/libcapiv2vop.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
-vendor/lib64/liblistensoundmodel2.so
-vendor/lib64/libmulawdec.so
 
 # Media
 system_ext/lib/libmmosal.so
@@ -1128,7 +1047,6 @@ vendor/lib64/unnhal-acc-hvx.so
 # NFC Firmware
 vendor/lib64/libpn557_fw.so
 
-
 # OMX
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
@@ -1155,27 +1073,6 @@ vendor/lib/libOmxVpp.so;DISABLE_CHECKELF
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libswvdec.so
-vendor/lib64/libAlacSwDec.so
-vendor/lib64/libApeSwDec.so
-vendor/lib64/libFlacSwDec.so
-vendor/lib64/libMpeg4SwEncoder.so
-vendor/lib64/libMpeghSwEnc.so
-vendor/lib64/libOmxAacDec.so
-vendor/lib64/libOmxAlacDec.so
-vendor/lib64/libOmxAlacDecSw.so
-vendor/lib64/libOmxAmrDec.so
-vendor/lib64/libOmxAmrwbplusDec.so
-vendor/lib64/libOmxApeDec.so
-vendor/lib64/libOmxApeDecSw.so
-vendor/lib64/libOmxEvrcDec.so
-vendor/lib64/libOmxG711Dec.so
-vendor/lib64/libOmxMpeghEncSw.so
-vendor/lib64/libOmxQcelp13Dec.so
-vendor/lib64/libOmxSwVdec.so;DISABLE_CHECKELF
-vendor/lib64/libOmxSwVencMpeg4.so;DISABLE_CHECKELF
-vendor/lib64/libOmxVpp.so;DISABLE_CHECKELF
-vendor/lib64/libOmxWmaDec.so
-vendor/lib64/libswvdec.so
 
 # Peripheral manager
 vendor/bin/pm-proxy
