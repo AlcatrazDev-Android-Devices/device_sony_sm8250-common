@@ -20,6 +20,22 @@ $(call inherit-product, vendor/sony/sm8250-common/sm8250-common-vendor.mk)
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Evo Start ==========================================================
+
+# Control vanilla
+# WITH_GMS := false
+
+# Control pico gapps
+# TARGET_USES_MINI_GAPPS := false
+# TARGET_USES_PICO_GAPPS := true
+
+# EvolutionX updater
+PRODUCT_PACKAGES += \
+    Updater \
+    UpdaterOverlayCommon
+
+# Evo End ============================================================
+
 # VNDK
 BOARD_SHIPPING_API_LEVEL := 29
 PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)

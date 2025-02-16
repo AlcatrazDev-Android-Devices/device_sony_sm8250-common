@@ -1721,12 +1721,12 @@ product/framework/com.sonyericsson.dlna_impl.jar
 system/priv-app/textinput-chn-xxhdpi-release/textinput-chn-xxhdpi-release.apk
 product/app/SomcPhotoPro-xxhdpi-release/SomcPhotoPro-xxhdpi-release.apk
 product/app/weather-release/weather-release.apk
-product/app/app-scan3d-release/app-scan3d-release.apk
-product/app/SomcMusicPro-release/SomcMusicPro-release.apk
+#product/app/app-scan3d-release/app-scan3d-release.apk
+#product/app/SomcMusicPro-release/SomcMusicPro-release.apk
 product/app/XperiaXLiveWallpaper-release/XperiaXLiveWallpaper-release.apk
 product/app/SomcVideographyPro-release/SomcVideographyPro-release.apk
-product/app/SomcSketch-Live-release/SomcSketch-Live-release.apk
-product/app/lifelog-release/lifelog-release.apk
+#product/app/SomcSketch-Live-release/SomcSketch-Live-release.apk
+#product/app/lifelog-release/lifelog-release.apk
 product/app/SemcEmail-release/SemcEmail-release.apk
 product/app/Wallpaper-liquid-pdx215-release/Wallpaper-liquid-pdx215-release.apk
 product/app/SomcCinemaPro-xxhdpi-release/SomcCinemaPro-xxhdpi-release.apk
