@@ -64,7 +64,6 @@ lib_fixups: lib_fixups_user_type = {
     (
         'libOmxCore',
         'libplatformconfig',
-        'libwpa_client',
         'libwfdaac_vendor',
         'libc2dcolorconvert',
         'libril',
