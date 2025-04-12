@@ -1,0 +1,71 @@
+
+cc_prebuilt_library_shared {
+    name: "liblhdc",
+    srcs: ["liblhdc.so",],
+
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.btservices",
+    ],
+
+    strip: {
+        none:true,
+    },
+
+    shared_libs: [
+        "liblog",
+        "libstdc++",
+    ],
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblhdcv5",
+    srcs: ["liblhdcv5.so",],
+
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.btservices",
+    ],
+
+    strip: {
+        none:true,
+    },
+
+    shared_libs: [
+        "liblog",
+        "libstdc++",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "liblhdcBT_enc",
+    srcs: ["liblhdcBT_enc.so",],
+
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "liblhdc",
+    ],
+
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.btservices",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "liblhdcv5BT_enc",
+    srcs: ["liblhdcv5BT_enc.so",],
+
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "liblhdcv5",
+    ],
+
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.btservices",
+    ],
+}
