@@ -60,10 +60,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.ims.rcsconfig@1.1',
         'vendor.qti.imsrtpservice@3.0',
     ): lib_fixup_vendor_suffix,
-    (
-        'libOmxCore',
-        'libplatformconfig',
-    ): lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {
