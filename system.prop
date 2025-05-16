@@ -29,6 +29,11 @@ persist.dbg.wfc_avail_ovr=1
 vendor.iop.enable_prefetch_ofr=1
 vendor.iop.enable_uxe=0
 
+# LMK
+ro.lmk.psi_partial_stall_ms=200
+ro.lmk.thrashing_limit_decay=50
+ro.lmk.lowmem_min_oom_score=801
+
 # Media
 media.settings.xml=/odm/etc/media_profiles_V1_0.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
